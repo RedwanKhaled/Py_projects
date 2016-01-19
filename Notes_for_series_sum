@@ -11,6 +11,8 @@ Formula for series:
                     = (2*n)*(2*n+1)/2 - 2*(1 + 2 + 3 + ... + n)
                     = n*(2*n+1) - 2*(n*(n+1)/2)
                     = n*(2*n+1) - n*(n+1)
+                    = n*n
+                    = n^2
 
 
         So, the sum of all odd numbers for n=4
@@ -33,5 +35,7 @@ Formula for series:
 
                     = S2(2*n) - 4*S2(n)
 
-                    = n*(2*n+1)*(4*n+1)/3 - 2*n*(n+1)*(2*n+1)/3     #simplified
+                    = n*(2*n+1)*(4*n+1)/3 - 2*n*(n+1)*(2*n+1)/3
+                    
+                    = n*(4*n*n - 1) / 3     #simplified
 
